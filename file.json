@@ -1,0 +1,397 @@
+{
+    "isTestMode": false,
+    "route": {
+        "partInstrument": null,
+        "page": "tab",
+        "songId": 407940,
+        "partId": null,
+        "revisionId": null,
+        "isPanel": false
+    },
+    "query": {},
+    "player": {
+        "audio": null,
+        "shouldPlay": false,
+        "canPlay": false,
+        "isLoopChanging": false,
+        "isCountin": false,
+        "isMetronome": false,
+        "metronomeType": "regular",
+        "voiceMetronomeAvailable": false,
+        "position": {
+            "cursor": 0,
+            "loopStart": 0,
+            "loopEnd": 0
+        },
+        "type": "focus",
+        "version": 2,
+        "forcedVersion": null,
+        "pitchShift": 0,
+        "speed": 100,
+        "tempo": {
+            "bpm": 72,
+            "type": 4,
+            "position": 0
+        },
+        "locks": [
+            "audio",
+            "model"
+        ],
+        "playbackAvailable": true,
+        "webworkerOperational": true,
+        "isAudioFailed": false,
+        "isAudioNetworkFailed": false
+    },
+    "meta": {
+        "current": {
+            "songId": 407940,
+            "artistId": 54326,
+            "revisionId": 483805,
+            "title": "Undertale - Home",
+            "artist": "Toby Fox",
+            "created_at": "2022-03-08T21:22:38.000Z",
+            "personId": 2307347,
+            "person": "LORENZO CORAZZA",
+            "restriction": "",
+            "hasChords": false,
+            "editors": [
+                1123567,
+                2182125,
+                1261685,
+                2307347
+            ],
+            "hasAudio": true,
+            "audio": "d1b5e07b-ab4c-40ed-be4d-a529b38ec410",
+            "image": "kd6ZHU7m-IX8M6LSa3OU4",
+            "hasTracks": true,
+            "hasPlayer": true,
+            "defaultTrackBass": 0,
+            "defaultTrackDrums": 0,
+            "defaultTrack": 0,
+            "lyrics": false,
+            "tracks": [
+                {
+                    "difficulty": "INTERMEDIATE",
+                    "tuning": [
+                        64,
+                        59,
+                        55,
+                        50,
+                        45,
+                        40
+                    ],
+                    "difficultyVersion": 3,
+                    "instrumentId": 24,
+                    "name": "Track 1",
+                    "instrument": "Acoustic Guitar (nylon)",
+                    "views": 1483,
+                    "title": "Track 1�-�Acoustic Guitar (nylon)",
+                    "partId": 0,
+                    "isGuitar": true
+                }
+            ],
+            "defaultTrackGuitar": 0,
+            "audioV2Midi": "v2-c9b70ae1",
+            "audioV2Generated": 1646774898591,
+            "audioV2": "v2-gd9GxYal6TiRNrV9zIBfY",
+            "views": 1483,
+            "nextMidi": "v3-989becb3",
+            "nextAudio": "v3-X-qx5hed3DRMexWbOAdcX",
+            "nextAudioGenerated": 1650407865984,
+            "audioV4Midi": "v3-40cb9482",
+            "audioV4": "v4-GMmPaTvrjLX3h3iqFQ6Iv",
+            "audioV4Generated": 1652563679355,
+            "tags": [
+                "soundtrack",
+                "chiptune",
+                "video game",
+                "electronic",
+                "ost",
+                "instrumental"
+            ]
+        },
+        "allowedByLicense": true,
+        "songId": 407940,
+        "partId": 0,
+        "revisionId": null,
+        "isFailed": false,
+        "isNotFound": false,
+        "isNetworkFailed": false,
+        "loading": null,
+        "wasFavoriteOnServerRender": false
+    },
+    "part": {
+        "current": null,
+        "lines": {
+            "lines": [],
+            "height": 0,
+            "width": 0,
+            "scale": 1,
+            "hash": "",
+            "slicingMode": {
+                "width": 0
+            }
+        },
+        "songId": 0,
+        "partId": 0,
+        "revisionId": 0,
+        "isFailed": false,
+        "isNotFound": false,
+        "isNetworkFailed": false,
+        "loading": null
+    },
+    "user": {
+        "profile": null,
+        "hasPlus": false,
+        "isAdmin": false,
+        "isModerator": false,
+        "isLoggedIn": false
+    },
+    "screen": {
+        "screen": "large",
+        "viewport": {
+            "width": 1070,
+            "height": 900
+        },
+        "isSmall": false,
+        "isMedium": false,
+        "isLarge": true,
+        "isWide": false,
+        "fullscreen": false
+    },
+    "consent": {
+        "suite": null,
+        "view": null,
+        "options": null
+    },
+    "artist": {
+        "id": 0,
+        "artists": {
+            "54326": "Toby Fox"
+        },
+        "pattern": "",
+        "defaultInstrument": 24,
+        "songs": {
+            "id": 0,
+            "list": [],
+            "hasMore": false,
+            "pattern": "",
+            "defaultInstrument": 24,
+            "filters": {
+                "instrument": "ALL INSTRUMENTS",
+                "difficulty": "Any Difficulty",
+                "tunings": {}
+            }
+        },
+        "filters": {
+            "instrument": "ALL INSTRUMENTS",
+            "difficulty": "Any Difficulty",
+            "tunings": {}
+        },
+        "loading": null
+    },
+    "favorites": {
+        "loading": false,
+        "error": false,
+        "pattern": "",
+        "favorites": [],
+        "actionId": "",
+        "filters": {
+            "instrument": "ALL INSTRUMENTS",
+            "difficulty": "Any Difficulty",
+            "tunings": {}
+        }
+    },
+    "layer": {
+        "layer": null
+    },
+    "revisions": {
+        "revisions": null,
+        "isLoading": true,
+        "isError": false
+    },
+    "payment": {
+        "dropin": {
+            "loading": false,
+            "ready": false,
+            "error": null,
+            "module": null,
+            "token": null
+        }
+    },
+    "songs": {
+        "pattern": "",
+        "defaultInstrument": 24,
+        "songs": {
+            "list": [],
+            "hasMore": true,
+            "pattern": "",
+            "defaultInstrument": 24,
+            "filters": {
+                "instrument": "ALL INSTRUMENTS",
+                "difficulty": "Any Difficulty",
+                "tunings": {}
+            }
+        },
+        "filters": {
+            "instrument": "ALL INSTRUMENTS",
+            "difficulty": "Any Difficulty",
+            "tunings": {}
+        },
+        "loading": null
+    },
+    "uploads": {
+        "song": null,
+        "songSubmitted": false,
+        "songError": null,
+        "revision": null,
+        "revisionSubmitted": false,
+        "revisionError": null
+    },
+    "demo": {
+        "active": false,
+        "enabled": false
+    },
+    "promo": {
+        "active": false,
+        "playbackPositionEvents": [],
+        "playbackTypeEvents": [],
+        "halfPlayed": 0
+    },
+    "isDeleted": false,
+    "editor": {
+        "processingDeletion": false,
+        "canDelete": false
+    },
+    "ads": {
+        "notsyLoaded": null,
+        "notsyFailed": null
+    },
+    "setlists": {
+        "loading": false,
+        "setlists": [],
+        "markedIds": []
+    },
+    "screener": {
+        "candidates": []
+    },
+    "textpage": {
+        "slug": "",
+        "title": "",
+        "content": "",
+        "isLoading": false,
+        "isError": false
+    },
+    "faq": {
+        "isLoading": false,
+        "isError": false
+    },
+    "ut": {
+        "recorderState": "ready",
+        "stage": "hidden",
+        "steps": {
+            "questions": 0,
+            "instructions": 0,
+            "survey": 0
+        },
+        "isAdditional": false,
+        "isClosing": false,
+        "isHidden": false
+    },
+    "chords": {
+        "current": null,
+        "songId": 0,
+        "chordsRevisionId": null,
+        "isFailed": false,
+        "isNotFound": false,
+        "isNetworkFailed": false,
+        "loading": null
+    },
+    "chordpro": {
+        "current": null,
+        "songId": 0,
+        "chordsRevisionId": 0,
+        "isFailed": false,
+        "isNotFound": false,
+        "isNetworkFailed": false,
+        "loading": null
+    },
+    "tabEditor": {
+        "positioned": false,
+        "formX": 0,
+        "formY": 0,
+        "measureNum": 0,
+        "beatNum": 0,
+        "stringNum": 0,
+        "voice": 0,
+        "fret": "",
+        "originalFret": "",
+        "status": "unset",
+        "adminData": [],
+        "adminPanelOpened": false
+    },
+    "cursor": {
+        "isFailed": false
+    },
+    "chordDiagram": [],
+    "tags": {
+        "route": null,
+        "query": null,
+        "content": null,
+        "isFailed": false,
+        "isNotFound": false,
+        "isNetworkFailed": false,
+        "loading": null
+    },
+    "curiosity": {
+        "conversion": {},
+        "referer": {},
+        "VPT10Props": {
+            "Used metronome": false,
+            "Used countin": false,
+            "Used solo": false,
+            "Used mute": false,
+            "Used playback": false,
+            "Used speed": false,
+            "Used loop": false,
+            "Used mixer": false,
+            "Used pitchshift": false,
+            "Used fullscreen": false
+        }
+    },
+    "routeContent": {
+        "partInstrument": null,
+        "page": "tab",
+        "songId": 407940,
+        "partId": null,
+        "revisionId": null,
+        "isPanel": false
+    },
+    "queryContent": {},
+    "device": {
+        "os": {
+            "name": "Other",
+            "version": "0.0.0"
+        },
+        "type": "bot",
+        "webview": false,
+        "languages": [],
+        "country": "RU",
+        "isPhone": false,
+        "isTablet": false,
+        "isDesktop": true,
+        "hasCCPA": false,
+        "hasGDPR": false
+    },
+    "browser": {
+        "family": "Python Requests",
+        "version": "2.28.0",
+        "browsersListEnv": "legacy"
+    },
+    "experiments": {
+        "emotions_on_plus": {
+            "status": "pending",
+            "segment": "off"
+        }
+    }
+}
