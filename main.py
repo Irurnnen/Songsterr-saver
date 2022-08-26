@@ -7,8 +7,8 @@ import os
 DEBUGING = False
 
 #  Download page html code
-url = input("Please insert the link to the song from songsterr\n - ")
-r = requests.get(url=url)
+url_site = input("Please insert the link to the song from songsterr\n - ")
+r = requests.get(url=url_site)
 
 #  Parse html code
 soup = BeautifulSoup(r.text, 'html.parser')
@@ -25,20 +25,28 @@ for script in scripts:
 
 #  Parse json file
 revisionId = str(state['meta']['current']['revisionId'])
+title = str(state['meta']['current']['title'])
+artist = str(state['meta']['current']['artist'])
 
 #  Download xml file
-url = f"https://www.songsterr.com/a/ra/player/songrevision/{revisionId}.xml"
+url_xml = f"https://www.songsterr.com/a/ra/player/songrevision/{revisionId}.xml"
 
-r = requests.get(url=url)
+r = requests.get(url=url_xml)
 
+#  Create xml file
 with open("file.xml", "w") as file:
     file.write(r.text)
 
 #  Parse xml file
 tree = ElementTree.parse("file.xml")
 root = tree.getroot()
-url = root[1][1][0].text
+url_gp5 = root[1][1][0].text
 #  Delete xml file
 os.remove('file.xml')
-# Link output
-print(url)
+
+# Download gp5 file
+r = requests.get(url=url_gp5)
+
+#  Create gp5 file
+with open(f"{artist} - {title} Tab.gp5", "wb") as gp5_file:
+    gp5_file.write(r.content)
