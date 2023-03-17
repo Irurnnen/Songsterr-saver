@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from xml.etree import ElementTree
-import os
 
 DEBUGING = False
 
@@ -40,6 +39,13 @@ url_gp5 = root[1][1][0].text
 # Download gp5 file
 r = requests.get(url=url_gp5)
 
+# Suggested by mfr-panda 
+# Remove invalid chars in output file name (/, \, ...)
+char_remove = ["/", "\\"]
+file_output = f"{artist} - {title} Tab.gp5"
+for char in char_remove:
+    file_output = file_output.replace(char, "-")
+
 # Create gp5 file
-with open(f"{artist} - {title} Tab.gp5", "wb") as gp5_file:
+with open(file_output, "wb") as gp5_file:
     gp5_file.write(r.content)
