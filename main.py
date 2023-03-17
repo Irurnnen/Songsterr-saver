@@ -34,8 +34,8 @@ url_xml = f"https://www.songsterr.com/a/ra/player/songrevision/{revisionId}.xml"
 r = requests.get(url=url_xml)
 
 #  Create xml file
-with open("file.xml", "w") as file:
-    file.write(r.text)
+with open("file.xml", "wb") as file:
+    file.write(r.text.encode())
 
 #  Parse xml file
 tree = ElementTree.parse("file.xml")
